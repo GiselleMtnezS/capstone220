@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 import Home  from './components/Home'
 import About  from './components/About'
 import ContactUs from './components/ContactUs'
-import Locations  from './components/Locations'
-import Location1  from './components/Location1'
-import Location2  from './components/Location2'
-import Location3  from './components/Location3'
+import Locations  from './components/Locations/Locations'
+import Location1  from './components/Locations/Location1'
+import Location2  from './components/Locations/Location2'
+import Location3  from './components/Locations/Location3'
 import Covid from './components/Covid'
 
 
@@ -17,6 +17,7 @@ class App extends Component {
     super(props)
     this.state={
       path: this.props.navigation,
+      
     }
   }
 //   componentDidMount=()=>{
@@ -25,12 +26,11 @@ class App extends Component {
 //   }
   render() {
     // var {path} = this.state
-    console.log(this.props.navigation)
-console.log(this.state)
+    // console.log(this.props.navigation)
+// console.log(this.state)
     return (
-      <div className="App">
-      
-          { this.props.navigation==="/"?
+      <div className="App" >
+        { this.props.navigation==="/"?
             (<Home />)
           :
           this.props.navigation==="/about"?
@@ -40,7 +40,7 @@ console.log(this.state)
             (<ContactUs/>)
           :
            this.props.navigation==="/locations/"?
-            (<Locations />)
+            (<Locations navigating ={this.props.navigating} />)
           :
            this.props.navigation==="/locations/location1"?
             (<Location1 />)

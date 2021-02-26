@@ -8,7 +8,7 @@ constructor(props){
     }
 }
 componentDidMount=()=>{
-    console.log(this.props)
+    // console.log(this.props)
 }
 
 render (){

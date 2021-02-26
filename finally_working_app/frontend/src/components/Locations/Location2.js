@@ -8,7 +8,7 @@ constructor(){
 render (){
 
 return(
-    <section>
+    <section style={{ marginTop:"-18.72px",width:"100%",height:"100%"}}>
         Location2
     </section>
 )

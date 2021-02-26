@@ -16,20 +16,20 @@ constructor(){
 }
 
 navigating=(to)=>{
-  console.log(to)
+//   console.log(to)
   this.setState({navigation:to})
 }
 
 render (){
-console.log(this.state)
+// console.log(this.state)
 return(
-    <section style={{position:"relative",top:0,display:"grid",gridTemplateRows:"75px auto 150px", height:"100vh" }}>
+    <section style={{position:"relative",top:0,display:"grid",gridTemplateRows:"auto auto 150px", height:"100vh" }}>
        {/* Navigation */}
        {/* <div > */}
         
-      <nav >
-          <ul className="topnav">
-              {this.state.pagesDisplay.map((pageText,index) =>(<Link navigating ={this.navigating}  
+      <nav style={{width:"100%", height:"100%", maxHeight:"65px"}}>
+          <ul style={{width:"100%", height:"100%", margin:0,padding:0}} className="topnav">
+              {this.state.pagesDisplay.map((pageText,index) =>(<Link key={index}navigating ={this.navigating}  
               to={this.state.pagesAddress[index]}>{pageText} 
               </Link>))}
 {/*               
@@ -66,7 +66,7 @@ return(
         </nav>
     {/* </div> */}
     
-       <App navigation={this.state.navigation}/>
+       <App navigation={this.state.navigation} navigating ={this.navigating}/>
 
        <Footer/>
     </section>
