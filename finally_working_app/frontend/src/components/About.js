@@ -19,7 +19,7 @@ textAlign:"center",
          }}>
         <h1 style={{fontSize:"2em"}}>This wonderful website is a project that we started working on near the beginning of 2021</h1>
 
-<p style={{fontSize:"2em"}}>We strive to provide the most accurate and up to date information on the locations that we feature here. If you have any questions, please don't hesitate to contact us on
+<p style={{fontSize:"1.5em"}}>We strive to provide the most accurate and up to date information on the locations that we feature here. If you have any questions, please don't hesitate to contact us on
     our contact page. 
     <p>Thank you!</p>
 </p>
