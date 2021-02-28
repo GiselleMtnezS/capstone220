@@ -13,8 +13,9 @@ return(
         textAlign:"center",
         width:"100%",height:"100%"
         }}>
-                 <img style={{ width:"100%", height:"auto"}}
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.getyourguide.com%2Fimg%2Flocation_img-308-3944880789-148.jpg&f=1&nofb=1"/>
+                <img style={{ width:"100%", height:"auto"}}
+                    src="https://external-content.duckduckgo.com/iu/?u=https://www.foxworldtravel.com/wp-content/uploads/2014/09/punta-cana2.jpg&f=1&nofb=1" 
+                />
 
 
                 <div className="location1-wrapper" style={{
