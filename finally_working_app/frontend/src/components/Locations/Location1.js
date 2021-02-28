@@ -18,8 +18,8 @@ return(
 
 
                 <div className="location1-wrapper" style={{
-                width:"100%", backgroundReapeat:"no-repeat",
-                background:'url("https://raw.githubusercontent.com/GiselleMtnezS/capstone220/main/finally_working_app/frontend/src/img/trianglify-lowres-medium-rotated.png")',
+                width:"100%", backgroundSize:"cover",
+                background:'url("https://raw.githubusercontent.com/GiselleMtnezS/capstone220/main/finally_working_app/frontend/src/img/SharedScreenshot-large-repeated.jpg")',
                 display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center",
                     }}>
                         <div style={{width:"60%", height:"100%"}}>

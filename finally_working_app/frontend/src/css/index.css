@@ -162,3 +162,6 @@ background: linear-gradient(180deg, rgba(74,119,243,0.4990371148459384) 17%, rgb
       -webkit-text-fill-color: transparent;
     
      }
+     .location1-wrapper{
+       background-repeat: repeat-y;
+     }
