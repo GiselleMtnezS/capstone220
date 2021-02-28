@@ -8,8 +8,8 @@ export default class Navigation extends Component {
 constructor(){
     super()
     this.state={
-        navigation:"/",
-        pagesDisplay:["Home","About","Contact Us","Locations","Location 1","Location 2","Location 3","Covid Disclaimer"],
+        navigation:"/locations/location1",
+        pagesDisplay:["Home","About","Contact Us","Locations","Location 1","Location 2","Location 3","Covid Precautions"],
         pagesAddress:["/","/about","/contactus","/locations/","/locations/location1","/locations/location2","/locations/location3","/covid"
 ]
     }
@@ -23,7 +23,7 @@ navigating=(to)=>{
 render (){
 // console.log(this.state)
 return(
-    <section style={{position:"relative",top:0,display:"grid",gridTemplateRows:"auto auto 150px", height:"100vh" }}>
+    <section style={{display:"grid",gridTemplateRows:"65px auto 150px", height:"100vh" }}>
        {/* Navigation */}
        {/* <div > */}
         

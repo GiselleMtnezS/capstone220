@@ -14,7 +14,11 @@ componentDidMount=()=>{
 render (){
     // console.log(this.state.to)
 return(
-    <footer className="section-footer">
+    <footer style={{
+        
+// borderTop:"white 5px solid",
+}} 
+    className="section-footer">
       
           <h3>Please visit again soon!</h3>
             <h2>@copyright.Zach.GMtnezS</h2>

@@ -29,15 +29,15 @@ class App extends Component {
     // console.log(this.props.navigation)
 // console.log(this.state)
     return (
-      <div className="App" >
+      <div className="App" style={{background:"#333"}}>
         { this.props.navigation==="/"?
-            (<Home />)
+            (<Home navigating ={this.props.navigating}/>)
           :
           this.props.navigation==="/about"?
             (<About />)
           :
           this.props.navigation==="/contactus"?
-            (<ContactUs/>)
+            (<ContactUs navigating ={this.props.navigating}/>)
           :
            this.props.navigation==="/locations/"?
             (<Locations navigating ={this.props.navigating} />)

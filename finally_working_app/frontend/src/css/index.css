@@ -6,10 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 body, #root, html{
+  font-family: 'Vollkorn', serif; 
+  /* font-family: 'Merriweather', serif; */
   margin:0;
   width:100vw;
   height:100vh;
- 
+ background:#333;
+ color: white;
 }
       .topnav {
         /* background-color: #63677D; i liked this color, test it out */
@@ -33,7 +36,7 @@ nav ul{
 
       nav ul li:hover {
         /* background-color: #ddd; */
-        background-color: rgb(42, 42, 241);
+        background-color: #4e6bd1;
 
         color: rgb(255, 255, 255);
       }
@@ -47,13 +50,16 @@ nav ul{
     color: red
   } */
   .section-footer{
-    background: #333;
+    background: rgba(0,215,255);
+    
+    background: linear-gradient(180deg, rgba(30,217,228,1) 7%, rgba(0,215,255,1) 38%);
+
     /* background-color: #63677D; */
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: 333;
   }
  
   .cd-stat .border{
@@ -72,7 +78,87 @@ nav ul{
   }
   .header-text-background{
     font-family: 'Merriweather', serif;
+    height: 50%;
     color:white;
+    
     /* color:"rgb(41, 40, 40)"; */
-    background:rgba(74, 119, 243, 0.5);
-  }
+    background: rgb(74,119,243);
+background: linear-gradient(180deg, rgba(74,119,243,0.4990371148459384) 17%, rgba(234,140,247,0.5046393557422969) 61%);
+
+
+}
+
+.another{
+  background: rgb(237,147,212);
+  background: linear-gradient(180deg, rgba(237,147,212,0.4990371148459384) 0%, rgba(74,119,243,0.4990371148459384) 83%, rgba(0,215,255,0.7035189075630253) 100%);
+
+}
+
+   input[type=text], select, textarea {
+     width: 100%; /* Full width */
+     padding: 12px; /* Some padding */ 
+     border: 1px solid #ccc; /* Gray border */
+     border-radius: 4px; /* Rounded borders */
+     box-sizing: border-box; /* Make sure that padding and width stays in place */
+     margin-top: 6px; /* Add a top margin */
+     margin-bottom: 16px; /* Bottom margin */
+     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+     }
+    
+    
+    button{
+     background: rgba(0,215,255) 100%;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     font-weight:800;
+     font-family: 'Merriweather', serif;
+    }
+    button{
+      transition: 0.5s ease;
+      cursor: pointer; 
+    }
+    button:hover{
+      transform:scale(1.2);
+      box-shadow: 5px 15px 15px rgba(0,215,255) ;
+    }
+    button:hover{
+      color:rgb(230, 76, 250) ;
+      background:rgb(250, 190, 242);
+      text-shadow: 1.5px 1px rgb(230, 76, 250) ;
+    }
+    
+     input[type=submit]:hover {
+     background-color: #45a049;
+     }
+    
+    
+     .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     }
+    
+     .preview-description{
+       font-weight: 500;
+       font-size:17px;
+
+     }
+
+     .location1-text{
+      background: -webkit-linear-gradient(180deg, rgba(0,215,255,1) 15%, rgba(59,224,255,1) 41%, rgba(255,255,255,1) 52%, rgba(59,224,255,1) 67%, rgba(0,215,255,1) 100%);
+     
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+     }
+
+     .location1-text-middle{
+      background: -webkit-linear-gradient(180deg, rgba(0,215,255,1) 15%, rgba(59,224,255,1) 41%, rgba(235,175,149,1) 52%, rgba(59,224,255,1) 67%, rgba(0,215,255,1) 100%);
+     font-size: 5em;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+     }

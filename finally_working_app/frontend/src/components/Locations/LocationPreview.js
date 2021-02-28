@@ -15,7 +15,7 @@ componentDidMount=()=>{
 }
 render (){
 // console.log(this.props.location)
-var {theme, name, continent, img} = this.props.location
+var {theme, name,display, description, continent, img} = this.props.location
 // console.log( name, continent,theme,stats)
 var {navigating} = this.props
 console.log(navigating)
@@ -55,10 +55,13 @@ return(
         <div className="loc-card-txt" style={{gridArea:"text", margin:25}}>
 
             <span style={{color: theme.color, fontSize:13}}>{continent}</span>
-            <h2 style={{fontSize:"28px", marginTop:0}}>
-                {name}
+            <h2 style={{fontSize:"28px", marginTop:0, marginBottom:0,}}>
+                {display}
             </h2>
-            <p style={{color:"grey", fontSize:15, fontWeight:300}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima vero, suscipit sit assumenda deleniti.</p>
+            <h3 className="preview-description"
+            style={{color:theme.color}}>
+                {description}
+            </h3>
         
         </div>
 
