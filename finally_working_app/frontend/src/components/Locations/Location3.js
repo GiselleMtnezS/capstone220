@@ -18,16 +18,16 @@ return(
                 />
 
 
-                <div className="location2-wrapper" style={{
+                <div className="location3-wrapper" style={{
                 width:"100%", color:"white",
                 display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center",
                 }}>
                         <div style={{width:"60%", height:"100%"}}>
                              <div style={{display:"grid",gridTemplateColumns:"100%",}}>
-                                    <div className="location2-top" style={{
+                                    <div className="location3-top" style={{
                                         // color:"#00E4E2"
                                         }}>  
-                                        <h1 className="location2-text"style={{ marginBottom:"0px"
+                                        <h1 className="location3-text"style={{ marginBottom:"0px"
                                         }}>Visiting San Juan?</h1>
 
                                         <h2 style={{
@@ -46,13 +46,13 @@ Cristóbal, and La Fortaleza, the oldest executive mansion in continuous use in 
                         </div>
 
                         {/* <div style={{width:"100%", background:"rgba(250,250,250,0.5)"}}>
-                                    <h1 className="location2-text-middle"> WHERE TO GO? <span style={{display:"block", fontSize:"0.8em"}}>AND</span> WHAT TO DO? </h1>
+                                    <h1 className="location3-text-middle"> WHERE TO GO? <span style={{display:"block", fontSize:"0.8em"}}>AND</span> WHAT TO DO? </h1>
                         </div> */}
                         <div style={{width:"60%", height:"100%"}}>
 
-                            <div className="location2-bottom" >
+                            <div className="location3-bottom" >
     
-                                    <h2 className="location2-text-middle" style={{
+                                    <h2 className="location3-text-middle" style={{
                                         fontSize:"5em"
                                 // color:"rgba(235,175,149,1"
                                 }}>Top Rated Hotels</h2>
