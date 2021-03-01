@@ -8,7 +8,7 @@ export default class Navigation extends Component {
 constructor(){
     super()
     this.state={
-        navigation:"/locations/location2",
+        navigation:"/",
         pagesDisplay:["Home","About","Contact Us","Locations","Location 1","Location 2","Location 3","Covid Precautions"],
         pagesAddress:["/","/about","/contactus","/locations/","/locations/location1","/locations/location2","/locations/location3","/covid"
 ]

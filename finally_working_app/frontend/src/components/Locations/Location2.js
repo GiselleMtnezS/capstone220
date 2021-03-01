@@ -60,6 +60,7 @@ return(
                                 </ul>
                                 <h1 style={{fontSize:"5em",
                                 }}>Main Attractions</h1>
+                                <div style={{textAlign:"left"}}>
                                     <h2>Visit Sanoa Island</h2>
                                     <p>Enjoy the ride on a Speedboat on your 
                                         way to visit Sanoa Island, the most picturesque island you can imagine. Most excursions provide lunch for this day long activity</p>
@@ -71,7 +72,7 @@ return(
                                     <p>No scuba diving experience neccessary! Each member will have their own ScubaDoo, mini sub! Very similar to snorkeling, except now you can explore the ocean's floors without coming up for air! </p>
                                     <h2>Monkeyland Safari</h2>
                                     <p>A day long trip from La Romana, explore a Monkey Dense jungle and sampling locally grown fruits, coffee, and cocoa</p>
-  
+                                </div>
                                   
                             </div>
                         </div>

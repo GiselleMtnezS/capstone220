@@ -61,6 +61,7 @@ return(
                                 </ul>
                                 <h1 style={{fontSize:"5em",
                                 }}>Main Attractions</h1>
+                                <div style={{textAlign:"left"}}>
                                     <h2>The Beach!
                                     <p>The hotel or resort that you are staying in will have it's own, but Playa Del Carmen has miles and miles to explore!</p>
                                     </h2>
@@ -78,6 +79,7 @@ return(
                                     <p>There are too many golf courses to list, but rest assured, whichever one you pick is guarenteed to be challenging and beautiful</p>
 
                                     </h2>
+                                </div>
                             </div>
                         </div>
                         

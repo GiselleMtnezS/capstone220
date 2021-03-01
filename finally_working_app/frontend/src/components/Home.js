@@ -38,7 +38,7 @@ return(
         display:"flex", flexDirection:"column",alignItems:"center",
         borderRadius:"20%", maxWidth:"60%", marginLeft:"0%"
         }}>
-            <button>CONTACT US!</button>  
+            <button onClick={() =>this.props.navigating("/contactus")}>CONTACT US!</button>  
       <h3>If you need any assistance, please feel free to send us a message!</h3>
       <h3> Thank you and have a great day!</h3>
              

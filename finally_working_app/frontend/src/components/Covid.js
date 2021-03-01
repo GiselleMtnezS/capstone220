@@ -8,15 +8,25 @@ constructor(){
 render (){
 
 return(
-    <section style={{ marginTop:"-18.72px",width:"100%",height:"100%"}}>
+    <section style={{ 
+        background: "linear-gradient(180deg, rgba(78,107,209,1) 5%, rgba(213,150,238,1) 45%, rgba(231,156,242,0.87718837535014) 84%, rgba(0,215,255,1) 100%)",
+        // marginTop:"-18.72px",
+        display:"flex", flexDirection:"column", justifyContent:"center",alignItems:"center",
+        width:"100%",height:"100%", color:"white"}}>  
+    <div className="container-contact" 
+    style={{width:"45vw",height:"30vw",
+    background: "rgba(250,250,250,0.5)",
+    borderRadius:"50px", padding:"50px",
+    color:"rgba(78,107,209,1)",
+    textAlign:"center",
+    }}
+    >    
+        <h2>As we all know, the current covid-19 pandemic has put a hamper on travelling this past year. 
+            
+        </h2>
         
-        <div>
-        <h1>As we all know, the current covid-19 pandemic has put a hamper on travelling this past year. If you must travel, please take the proper precautions and adhear to the 
-            guildlines below, given by the CDC.
-        </h1>
-        <h1>If you Must Travel</h1>
-        <h2>If you must travel, take these steps to protect yourself and others from COVID-19</h2>
-        <ul>
+        <h2 style={{textDecoration:"underline"}}>If you must travel, take these precautionas as given by the CDC, to protect yourself and others from COVID-19:</h2>
+        <ul style={{textAlign:"left", fontSize:"1.2em"}}>
             <li>If you are eligible, get fully vaccinated for COVID-19. Wait 2 weeks after getting your second vaccine dose to travel—it takes time for your body to build protection after any vaccination.</li>
             <li>Get tested with a viral test 1-3 days before you travel. Keep a copy of your test results with you during travel in case you are asked for them. Do NOT travel if you test positive.</li>
             <li>Check travel restrictions before you go.</li>
