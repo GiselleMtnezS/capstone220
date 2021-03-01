@@ -22,7 +22,7 @@ constructor(){
 
             {name:"location3", display:"San Juan",continent:" Puerto Rico",
             theme:{background:"rgb(183, 250, 183)", color:"green", details:"greenyellow"},
-             img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-AV7XOQAfzyI%2FV1c2aY8hmlI%2FAAAAAAAAJT0%2Fckr6CtGjmskm5b15TBKQdtHbTJS5PJLNgCLcB%2Fs1600%2FIMG_0835.jpg&f=1&nofb=1",
+             img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.timeout.com%2Fimages%2F102852687%2Fimage.jpg&f=1&nofb=1",
              stats:{population: {value:134, display:"Population"}, touristRate:{value:36, display: "Tourism Rates"}, ratings: {value:4, display:"Rating"} },
              description: "San Juan is the capital and most-populous municipality in the Commonwealth of Puerto Rico, an unincorporated territory of the United States.",
 
